@@ -1,7 +1,7 @@
 #include <stdio>
 /**
- * main - Entry point ,prints Programming is like building a multlingual puzzle
- *
+ * main - code block
+ * Description: prints a string
  * Return: 0
  */
 
