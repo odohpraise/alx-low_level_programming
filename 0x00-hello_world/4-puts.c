@@ -2,7 +2,7 @@
 /**
  * main - Entry point ,prints Programming is like building a multlingual puzzle
  *
- * Return: Always 0 (success)
+ * Return: 0
  */
 
 int main(void)
