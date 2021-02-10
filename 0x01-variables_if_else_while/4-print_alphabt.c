@@ -8,12 +8,21 @@
 int main(void)
 {
 	char lowercase = 'a'
-		while (lowercase <= 'z'; lowercase++)
+		while (lowercase <= 'a')
 		{
-			if (lowercase != 'e' && lowercase != 'r')
-			putchar(lowercase);
-		}
-
+			if (lowercase  == 'q')
+			{
+				lowercase++;
+			}
+			else if (lowercase == 'e')
+			{
+				lowercase++;
+			}
+			else
+			{
+				putchar(lowercase)
+				lowercase++;
+			}
 			putchar('\n');
 
 			return (0);
