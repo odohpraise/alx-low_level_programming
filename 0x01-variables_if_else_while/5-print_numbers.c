@@ -9,8 +9,10 @@ int main(void)
 	int base = 0;
 
 	while (base <= 10)
+	{
 	printf("%d", base);
 	base++;
+	}
 	printf('\n');
 
 	return (0);
