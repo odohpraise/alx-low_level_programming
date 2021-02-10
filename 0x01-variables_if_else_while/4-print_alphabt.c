@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
  * main - code block entry
  * Description: Print all alphabet except q & e
