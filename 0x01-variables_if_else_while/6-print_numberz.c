@@ -6,13 +6,13 @@
  */
 int main(void)
 {
-	int base = 0;
+	int base = '0';
 
-	while (base < 10)
-{
-	putchar(base);
-	base++;
-}
+	while (base <= '9')
+	{
+		putchar(base);
+		base++;
+	}
 	putchar('\n');
 
 	return (0);
