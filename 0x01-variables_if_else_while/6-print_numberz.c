@@ -11,7 +11,7 @@ int main(void)
 	while (base < 10)
 {
 	putchar(base);
-	base++
+	base++;
 }
 	putchar('\n');
 
