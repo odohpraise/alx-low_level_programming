@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
  * main - code block Entry
  * Description: Program that prints base 10 to 0
@@ -11,7 +11,7 @@ int main(void)
 	while (base <= 10)
 		printf("%d", base);
 	base++;
-	printf('n');
+	printf('\n');
 
 	return (0);
 
