@@ -1,4 +1,4 @@
-#include <stdio.h>
+B#include <stdio.h>
 /**
  * main - code Block entry
  * Description: Prints the possible combination of sinle digit
@@ -9,7 +9,7 @@ int main(void)
 {
 	int num;
 
-	for (num = 48; num <= 57; num++)
+	for (num = '0'; num <= '9'; num++)
 	{
 		putchar(num);
 		if (num != '9')
