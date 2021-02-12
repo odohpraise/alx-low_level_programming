@@ -1,4 +1,4 @@
-B#include <stdio.h>
+#include <stdio.h>
 /**
  * main - code Block entry
  * Description: Prints the possible combination of sinle digit
