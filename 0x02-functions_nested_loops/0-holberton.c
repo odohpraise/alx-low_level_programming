@@ -1,16 +1,33 @@
 #include "holberton.h"
 /**
- * main - code block entry
- * Description: Program that Prints holberton
- * Return:0
+ * main - random numbers
+ * Return: last digit
  */
-int main (void)
+
+int main(void)
 {
-  char holberton;
 
-  _putchar("Holberton",\n);
-  return (0);
+		_putchar('H');
 
+		_putchar('o');
+
+		_putchar('l');
+
+		_putchar('b');
+
+		_putchar('e');
+
+		_putchar('r');
+
+		_putchar('t');
+
+		_putchar('o');
+
+		_putchar('n');
+
+		_putchar('\n');
+
+		return (0);
 
 
 }
