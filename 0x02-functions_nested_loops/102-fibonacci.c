@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int firstTerm, secondTerm, nextTerm, num;
+	long firstTerm, secondTerm, nextTerm, num;
 
 	firstTerm = 1;
 	secondTerm = 2;
@@ -15,13 +15,13 @@ int main(void)
 	printf("1, 2, ");
 	while (num < 47)
 	{
-		printf("%d, ", nextTerm);
+		printf("%ld, ", nextTerm);
 		firstTerm = secondTerm;
 		secondTerm = nextTerm;
 		nextTerm = firstTerm + secondTerm;
 		num++;
 	}
-	printf("%d\n", nextTerm);
+	printf("%ld\n", nextTerm);
 
 		return (0);
 }
