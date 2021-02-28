@@ -6,19 +6,14 @@
  */
 int main(void)
 {
-	int t1, t2, nextTerm, n;
+	int i, n = 50, t1 = 1, t2 = 2, nextTerm;
 
-	t1 = 1;
-	t2 = 2;
-	nextTerm = t1 + t2;
-	n = 50;
-	printf("%d, %d, ", t1, t2);
-	while (nextTerm <= 50)
+	for (i = 1; i <= n; ++1)
 	{
-		printf("%d, ", nextTerm);
+		printf("d, ", t1);
+		nextTerm = t1 + t2;
 		t1 = t2;
 		t2 = nextTerm;
-		nextTerm = t1 + t2;
 	}
 	return (0);
 
