@@ -6,18 +6,22 @@
  */
 int main(void)
 {
-	int i, n = 50, t1 = 1, t2 = 2, nextTerm;
+	int i, n, t1, t2, nextTerm;
 
-	for (i = 1; i <= n; ++1)
+	i = 0;
+	nexttTerm = 3;
+	t1 = 1;
+	t2 = 2;
+	printf("1, 2, ");
+	while (i < 47)
 	{
-		printf("d, ", t1);
-		nextTerm = t1 + t2;
+		printf("%d, ", nextTerm);
 		t1 = t2;
 		t2 = nextTerm;
+		nextTerm = t1 + t2;
+		i++;
 	}
+	printf("%d\n", nextTerm);
 
 	return (0);
-
-
-
 }
