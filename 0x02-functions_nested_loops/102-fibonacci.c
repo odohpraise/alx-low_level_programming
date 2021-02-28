@@ -1,4 +1,4 @@
- #include <stdio.h>
+#include <stdio.h>
 /**
  * main - code Block entry
  * Description: Print first 50 fibonacci numbers
@@ -6,16 +6,22 @@
  */
 int main(void)
 {
-	int n, t1 = 1, t2 = 2, nextTerm;
+	int firstTerm, secondTerm, nextTerm, num;
 
-	if (n == 50)
+	firstTerm = 1;
+	secondTerm = 2;
+	nextTerm = 3;
+	num = 0;
+	printf("1,2, ");
+	while (num < 47)
 	{
-		for (i = 1; 1 <= 50; i++)
-		{
-			printf("%d, ", t1);
-			nextTerm = t1 + t2;
-			t1 = t2;
-			t2 = nextTerm;
-		}
+		printf("%d, ", nextTerm);
+		firstTerm = secondTerm;
+		secondTerm = nextTerm;
+		nextTerm = firstTerm + secondTerm;
+		num++;
 	}
+	printf("%d\n", nextTerm);
+
+		return (0);
 }
