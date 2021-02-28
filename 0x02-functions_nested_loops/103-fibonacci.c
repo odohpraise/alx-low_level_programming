@@ -8,7 +8,8 @@
  */
 int main(void)
 {
-	long first, second, next, sum;
+	long first, second, next;
+	float sum;
 
 	first = 1;
 	second = 2;
@@ -26,7 +27,7 @@ int main(void)
 		first = second;
 		second = next;
 	}
-	printf("%ld\n", next);
+	printf("%.0f\n", sum);
 
 	return (0);
 
