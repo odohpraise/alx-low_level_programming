@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	long first, second, next;
+	unsigned long first, second, next;
 	float sum;
 
 	first = 1;
