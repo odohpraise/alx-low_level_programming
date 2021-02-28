@@ -6,19 +6,23 @@
  */
 int main(void)
 {
-	int  num = '00';
+	int num1, num2;
 
-	while (num <= '99')
+	for (num1 = 0; num1 < 10; num1++)
 	{
-		putchar(num);
-		num++;
-	}
+		for (num2 = 0; num2 < 10; num2++)
+		{
+			putchar((num1 % 10) + '0');
+			putchar((num2 % 10) + '0');
 
-	if (num < 99)
-{
-	putchar(',');
-	putchar(' ');
-}
+			if (num1 == 9 && num2 == 9)
+				continue;
+
+
+			putchar(',');
+			putchar(' ');
+		}
+	}
 	putchar('\n');
 
 	return (0);
