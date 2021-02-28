@@ -13,7 +13,6 @@ int main(void)
 
 	first = 1;
 	second = 2;
-	next = 3;
 
 	while (1)
 	{
