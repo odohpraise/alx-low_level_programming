@@ -12,7 +12,7 @@ int main(void)
 	secondTerm = 2;
 	nextTerm = 3;
 	num = 0;
-	printf("1,2, ");
+	printf("1, 2, ");
 	while (num < 47)
 	{
 		printf("%d, ", nextTerm);
