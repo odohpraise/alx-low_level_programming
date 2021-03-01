@@ -11,8 +11,8 @@ int main(void)
 	unsigned long first, second, next;
 	float sum;
 
-	first = 1;
-	second = 2;
+	first = 0;
+	second = 1;
 
 	while (1)
 	{
